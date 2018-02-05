@@ -11,17 +11,21 @@
 ```
     
 
-## Forced Browsing:      
+## Forced Browsing:    
+
 `https://levels-a.hacker101.com/levels/1/post?id=88`      
 Change post ID to view anyone's post & their gmail IDs      
 ![Forced Browsing](https://github.com/Isopach/Hacker101/blob/master/img/level1_forced_browsing.png)
 
 ---- 
 
-## Stored XSS:        
-Post a HTTP link with a delimiter like `"` or `* `     
+## Stored XSS:       
+
+Post a HTTP link with a delimiter like `"` or `*`     
 `http://test.com/"onload="alert('hakd')`        
+
 ![Stored XSS](https://github.com/Isopach/Hacker101/blob/master/img/level1_stored_xss.png)
+
 ----
   
 ## CSRF:    
