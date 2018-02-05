@@ -21,8 +21,11 @@ Look at script at bottom of page source:
 				var cookie = cookies[i].replace(/ /g, '').split('=');
 				if(cookie[0] == 'admin' && cookie[1] == '1')
 					document.write('<a href="/levels/3/admin?page=' + page + '">Edit this page</a>');
-			}```    
+			}
+```    
       
+      
+  
  Go to cookies and change value for admin cookie from 0 to 1:       
  ![Cookie interface in Firefox Quantum](https://github.com/Isopach/Hacker101/blob/master/img/level3_improper_auth1.png)
 
