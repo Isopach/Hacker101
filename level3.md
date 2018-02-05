@@ -37,7 +37,7 @@ Look at script at bottom of page source:
 **Stored XSS (Body)**
 
 Enter payload into body and POST     
-```<svg onload=alert(1)>```
+```"<svg onload=alert(1)>```
 
 ![Stored XSS in Body](https://github.com/Isopach/Hacker101/blob/master/img/level3_stored_xss_body.png)
 
