@@ -8,7 +8,7 @@
 		
     -->
     
-<!--
+
 Improper Authorization
 Look at script at bottom of page source:
 // We should only display the edit link to authenticated admins.
@@ -27,4 +27,4 @@ Look at script at bottom of page source:
  ![Cookie interface in Firefox Quantum](https://github.com/Isopach/Hacker101/blob/master/img/level3_improper_auth1.png)
 
 
--->
+
