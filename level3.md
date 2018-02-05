@@ -1,4 +1,4 @@
-<!--
+```
 		In this level, there are 6 vulnerabilities, falling into the following classes:
 		Various XSS
 		Improper Authorization
@@ -6,11 +6,14 @@
 
 		Have fun!
 		
-    -->
+   ```
     
+    
+ 
 
 **Improper Authorization:**       
-Look at script at bottom of page source:       
+Look at script at bottom of page source:    
+
 ```// We should only display the edit link to authenticated admins.
 			// http://i.imgur.com/WPaknth.jpg
 			var page = window.location.hash.substring(1);
@@ -29,6 +32,7 @@ Look at script at bottom of page source:
  Go to cookies and change value for admin cookie from 0 to 1:       
  ![Cookie interface in Firefox Quantum](https://github.com/Isopach/Hacker101/blob/master/img/level3_improper_auth1.png)
 
+----
 
 **Stored XSS (Body)**
 
