@@ -1,4 +1,4 @@
-# Level3: Breaker CMS Admin
+# Level 3: Breaker CMS
 
 ```
 		In this level, there are 6 vulnerabilities, falling into the following classes:
