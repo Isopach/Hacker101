@@ -30,4 +30,10 @@ Look at script at bottom of page source:
  ![Cookie interface in Firefox Quantum](https://github.com/Isopach/Hacker101/blob/master/img/level3_improper_auth1.png)
 
 
+**Stored XSS (Body)**
+
+Enter payload into body and POST     
+```<svg onload=alert(1)>```
+
+![Stored XSS in Body](https://github.com/Isopach/Hacker101/blob/master/img/level3_stored_xss_body.png)
 
