@@ -9,8 +9,8 @@
     -->
     
 
-Improper Authorization
-Look at script at bottom of page source:
+Improper Authorization:       
+Look at script at bottom of page source:       
 // We should only display the edit link to authenticated admins.
 			// http://i.imgur.com/WPaknth.jpg
 			var page = window.location.hash.substring(1);
