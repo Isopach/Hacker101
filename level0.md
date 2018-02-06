@@ -11,7 +11,7 @@
 		
 ```
 
-## Authentication Bypass/Direct Object Reference
+## Authentication Bypass/Direct Object Reference/DOM XSS
 
 ### POST form with any value after editing the page source starting from body 
 
