@@ -19,12 +19,12 @@ Change post ID to view anyone's post & their gmail IDs
 
 ---- 
 
-## Stored XSS:       
+## Reflected XSS:       
 
 Post a HTTP link with a delimiter like `"` or `*`     
-`http://test.com/"onload="alert('hakd')`        
+`http://test.com/"onmouseover="alert('hakd')`        
 
-![Stored XSS](https://github.com/Isopach/Hacker101/blob/master/img/level1_stored_xss.png)
+![Reflected XSS](https://github.com/Isopach/Hacker101/blob/master/img/level1_stored_xss.png)
 
 ----
   
