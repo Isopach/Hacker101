@@ -45,7 +45,7 @@ Enter payload into page body edit box and POST
 
 ---
 
-## Stored XSS (Body, DOM)
+## Stored XSS (Body)
 
 Enter payload into page body edit box and POST    
 `<a href="https://levels-a.hacker101.com/levels/3/#" onmouseover=alert(1)`   
@@ -54,7 +54,7 @@ Enter payload into page body edit box and POST
 
 ---
 
-## Self XSS (Head)
+## DOM XSS (Head)
 
 Enter payload into title:     
 
